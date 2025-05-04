@@ -1,0 +1,28 @@
+# OS/system-specific files
+.DS_Store
+
+# IDE/editor-specific folders
+.idea/
+.zed/
+
+# Build output
+dist/
+
+# Node.js dependencies
+node_modules/
+
+# Apify storage (local dataset/key-value store)
+apify_storage/
+storage/
+
+# Python virtual environment (if using Python actors or helpers)
+.venv/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Optional: dotenv files
+.env
+.env.local

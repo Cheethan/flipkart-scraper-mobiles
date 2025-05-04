@@ -1,0 +1,22 @@
+{
+    "title": "PlaywrightCrawler Template",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "mobile": {
+            "title": "Mobile Model",
+            "type": "string",
+            "description": "The search term to query on Flipkart.",
+            "default": "motorola",
+            "editor": "textfield"
+        },
+        "pages_to_scrape": {
+            "title": "Pages to Scrape",
+            "type": "integer",
+            "description": "The number of pages to scrape from Flipkart.",
+            "default": 2,
+            "editor": "number"
+        }
+
+    }
+}
